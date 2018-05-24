@@ -3,12 +3,6 @@ spring:
       url: jdbc:mysql://192.168.1.222:3306/dianbo?useUnicode=true&autoReconnect=true&useSSL=false
       username: root
       password: 111111
-  cloud:
-    config:
-      allowOverride: true
-      failFast: true
-      overrideNone: true #覆盖非系统属性　true不覆盖
-      overrideSystemProperties: false #覆盖系统属性 false不覆盖
 
   redis:
       host: 192.168.1.222
