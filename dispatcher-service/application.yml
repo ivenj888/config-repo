@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: dispatcher-service
   datasource:
       url: jdbc:mysql://192.168.1.222:3306/dianbo?useUnicode=true&autoReconnect=true&useSSL=false
       username: root
@@ -42,4 +44,4 @@ api:
     neteaseIMAppKey: de2cda341e38c5dee39435fd636d9776
     neteaseIMSecret: 009b0c5b6e51
     neteaseIMApiUrl: https://api.netease.im/nimserver
-kff: hello
+kff: ${prop1}
