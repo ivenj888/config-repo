@@ -7,7 +7,12 @@ spring:
     config:
       allow-override: true
       override-none: true #不覆盖非系统属性
-      override-system-properties: false #覆盖系统属性
+      override-system-properties: false #覆盖系统属性  
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
   redis:
       host: 192.168.1.222
