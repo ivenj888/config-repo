@@ -13,7 +13,6 @@ spring:
     port: 5672
     username: guest
     password: guest
-
   redis:
       host: 192.168.1.222
       port: 6379
@@ -46,3 +45,4 @@ api:
     neteaseIMAppKey: de2cda341e38c5dee39435fd636d9776
     neteaseIMSecret: 009b0c5b6e51
     neteaseIMApiUrl: https://api.netease.im/nimserver
+refresh: hello
